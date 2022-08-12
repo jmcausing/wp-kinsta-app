@@ -30,7 +30,7 @@ define( 'DB_USER', $_ENV["DB_USER"] );
 define( 'DB_PASSWORD', $_ENV["DB_PASSWORD"] );
 
 /** Database hostname */
-define( 'DB_HOST', $_ENV["DB_HOST"] . ':' . $_ENV["DB_PORT"]  );
+define( 'DB_HOST', $_ENV["DB_HOST"] );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
