@@ -1,5 +1,5 @@
 <?php
-echo $_ENV["DB_HOST"]
+echo $_ENV["DB_HOST"];
 /**
  * The base configuration for WordPress
  *
